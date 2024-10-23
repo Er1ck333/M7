@@ -1,0 +1,112 @@
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 435px;
+    height: 292px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 400px;
+    height: 268px;
+    top: 12px;
+    left: 18px;
+    background-color: #efefef;
+    border-radius: 10px;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 279px;
+    height: 138px;
+    top: 98px;
+    left: 60px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 145px;
+    top: 61px;
+    left: 67px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .div {
+    position: absolute;
+    width: 365px;
+    height: 37px;
+    top: 8px;
+    left: 18px;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 295px;
+    top: 0;
+    left: 0;
+    font-family: "Kadwa-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 79px;
+    height: 26px;
+    top: 7px;
+    left: 286px;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: absolute;
+    width: 36px;
+    top: 13px;
+    left: 308px;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: absolute;
+    width: 109px;
+    top: 68px;
+    left: 18px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .switch {
+    position: absolute;
+    width: 24px;
+    height: 15px;
+    top: 68px;
+    left: 142px;
+    object-fit: cover;
+  }
+  

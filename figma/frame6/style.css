@@ -1,0 +1,126 @@
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 435px;
+    height: 292px;
+    position: relative;
+  }
+  
+  .frame .overlap-group {
+    position: absolute;
+    width: 400px;
+    height: 268px;
+    top: 12px;
+    left: 18px;
+    background-color: #efefef;
+    border-radius: 10px;
+  }
+  
+  .frame .fondo {
+    position: absolute;
+    width: 127px;
+    height: 76px;
+    top: 120px;
+    left: 139px;
+    object-fit: cover;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 367px;
+    height: 37px;
+    top: 6px;
+    left: 16px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 295px;
+    top: 0;
+    left: 0;
+    font-family: "Kadwa-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle {
+    top: 7px;
+    left: 288px;
+    position: absolute;
+    width: 79px;
+    height: 26px;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 36px;
+    top: 13px;
+    left: 310px;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .p {
+    position: absolute;
+    width: 172px;
+    top: 68px;
+    left: 16px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .img {
+    position: absolute;
+    width: 127px;
+    height: 76px;
+    top: 120px;
+    left: 6px;
+    object-fit: cover;
+  }
+  
+  .frame .fondo-2 {
+    position: absolute;
+    width: 122px;
+    height: 76px;
+    top: 120px;
+    left: 272px;
+    object-fit: cover;
+  }
+  
+  .frame .aadir {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 208px;
+    left: 179px;
+    object-fit: cover;
+  }
+  
+  .frame .rectangle-2 {
+    top: -504px;
+    left: -389px;
+    position: absolute;
+    width: 79px;
+    height: 26px;
+  }
+  

@@ -1,0 +1,314 @@
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 435px;
+    height: 298px;
+    position: relative;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 154px;
+    top: -12px;
+    left: 12px;
+    font-family: "Kadwa-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .line {
+    position: absolute;
+    width: 1px;
+    height: 217px;
+    top: 50px;
+    left: 218px;
+    object-fit: cover;
+  }
+  
+  .frame .overlap {
+    position: absolute;
+    width: 183px;
+    height: 94px;
+    top: 65px;
+    left: 23px;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 176px;
+    height: 94px;
+    top: 0;
+    left: 0;
+    background-color: #efefef;
+    border-radius: 10px;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 158px;
+    top: 5px;
+    left: 25px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .img {
+    height: 22px;
+    top: 34px;
+    position: absolute;
+    width: 176px;
+    left: 0;
+  }
+  
+  .frame .rectangle-2 {
+    height: 22px;
+    top: 62px;
+    position: absolute;
+    width: 176px;
+    left: 0;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: absolute;
+    width: 88px;
+    top: 40px;
+    left: 58px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: absolute;
+    width: 88px;
+    top: 66px;
+    left: 58px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .info {
+    position: absolute;
+    width: 16px;
+    height: 19px;
+    top: 36px;
+    left: 33px;
+    object-fit: cover;
+  }
+  
+  .frame .almacenamiento {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 63px;
+    left: 31px;
+    object-fit: cover;
+  }
+  
+  .frame .overlap-group {
+    position: absolute;
+    width: 208px;
+    height: 120px;
+    top: 106px;
+    left: 237px;
+  }
+  
+  .frame .rectangle-3 {
+    height: 120px;
+    top: 0;
+    background-color: #efefef;
+    border-radius: 10px;
+    position: absolute;
+    width: 176px;
+    left: 0;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: absolute;
+    width: 158px;
+    top: 4px;
+    left: 50px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle-4 {
+    height: 22px;
+    top: 61px;
+    position: absolute;
+    width: 176px;
+    left: 0;
+  }
+  
+  .frame .rectangle-5 {
+    height: 22px;
+    top: 88px;
+    position: absolute;
+    width: 176px;
+    left: 0;
+  }
+  
+  .frame .text-wrapper-6 {
+    position: absolute;
+    width: 88px;
+    top: 39px;
+    left: 54px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-7 {
+    position: absolute;
+    width: 88px;
+    top: 92px;
+    left: 54px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-8 {
+    position: absolute;
+    width: 88px;
+    top: 66px;
+    left: 54px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .fondo-de-pantalla {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 35px;
+    left: 22px;
+    object-fit: cover;
+  }
+  
+  .frame .brillo {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 64px;
+    left: 24px;
+    object-fit: cover;
+  }
+  
+  .frame .estilo {
+    position: absolute;
+    width: 16px;
+    height: 13px;
+    top: 92px;
+    left: 24px;
+    object-fit: cover;
+  }
+  
+  .frame .overlap-2 {
+    position: absolute;
+    width: 183px;
+    height: 94px;
+    top: 173px;
+    left: 23px;
+  }
+  
+  .frame .text-wrapper-9 {
+    position: absolute;
+    width: 158px;
+    top: 2px;
+    left: 25px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle-6 {
+    height: 22px;
+    top: 33px;
+    position: absolute;
+    width: 176px;
+    left: 0;
+  }
+  
+  .frame .text-wrapper-10 {
+    position: absolute;
+    width: 88px;
+    top: 39px;
+    left: 63px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-11 {
+    position: absolute;
+    width: 88px;
+    top: 65px;
+    left: 58px;
+    font-family: "Joan-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .ios-wifi {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 35px;
+    left: 32px;
+    object-fit: cover;
+  }
+  
+  .frame .modoavion {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    top: 63px;
+    left: 33px;
+    object-fit: cover;
+  }
