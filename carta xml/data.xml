@@ -7,7 +7,16 @@
             <DESCRIPCION>Medias lunas de patata, fritas con salsa brava ligeramente picante.</DESCRIPCION>
             <PRECIO>3.50</PRECIO>
         </PLATO>
-        <!-- Más platos en el grupo -->
+        <PLATO>
+            <NOMBRE>Calamares</NOMBRE>
+            <DESCRIPCION>Anillas de calamar crujientes, servidas con alioli casero.</DESCRIPCION>
+            <PRECIO>6.00</PRECIO>
+        </PLATO>
+        <PLATO>
+            <NOMBRE>Olivas</NOMBRE>
+            <DESCRIPCION>Selección de olivas verdes y negras marinadas.</DESCRIPCION>
+            <PRECIO>2.00</PRECIO>
+        </PLATO>
     </GRUPO>
     <GRUPO>
         <NOMBRE>Principales</NOMBRE>
@@ -16,6 +25,33 @@
             <DESCRIPCION>Fideos finos con mariscos frescos y alioli.</DESCRIPCION>
             <PRECIO>12.00</PRECIO>
         </PLATO>
-        <!-- Más platos en el grupo -->
+        <PLATO>
+            <NOMBRE>Entrecot</NOMBRE>
+            <DESCRIPCION>Entrecot de ternera a la parrilla, acompañado de papas fritas.</DESCRIPCION>
+            <PRECIO>15.00</PRECIO>
+        </PLATO>
+        <PLATO>
+            <NOMBRE>Bacalao a la Vizcaína</NOMBRE>
+            <DESCRIPCION>Lomo de bacalao al horno con salsa de pimientos y tomate.</DESCRIPCION>
+            <PRECIO>14.50</PRECIO>
+        </PLATO>
+    </GRUPO>
+    <GRUPO>
+        <NOMBRE>Postres</NOMBRE>
+        <PLATO>
+            <NOMBRE>Flan</NOMBRE>
+            <DESCRIPCION>Flan casero con caramelo.</DESCRIPCION>
+            <PRECIO>3.00</PRECIO>
+        </PLATO>
+        <PLATO>
+            <NOMBRE>Profiteroles</NOMBRE>
+            <DESCRIPCION>Profiteroles rellenos de crema y bañados en chocolate.</DESCRIPCION>
+            <PRECIO>4.00</PRECIO>
+        </PLATO>
+        <PLATO>
+            <NOMBRE>Tiramisú</NOMBRE>
+            <DESCRIPCION>Tiramisú clásico italiano con un toque de café y cacao.</DESCRIPCION>
+            <PRECIO>4.50</PRECIO>
+        </PLATO>
     </GRUPO>
 </CARTA>
