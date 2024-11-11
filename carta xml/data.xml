@@ -1,0 +1,21 @@
+<!-- data.xml -->
+<CARTA>
+    <GRUPO>
+        <NOMBRE>Entrantes</NOMBRE>
+        <PLATO>
+            <NOMBRE>Bravas</NOMBRE>
+            <DESCRIPCION>Medias lunas de patata, fritas con salsa brava ligeramente picante.</DESCRIPCION>
+            <PRECIO>3.50</PRECIO>
+        </PLATO>
+        <!-- Más platos en el grupo -->
+    </GRUPO>
+    <GRUPO>
+        <NOMBRE>Principales</NOMBRE>
+        <PLATO>
+            <NOMBRE>Fideuá</NOMBRE>
+            <DESCRIPCION>Fideos finos con mariscos frescos y alioli.</DESCRIPCION>
+            <PRECIO>12.00</PRECIO>
+        </PLATO>
+        <!-- Más platos en el grupo -->
+    </GRUPO>
+</CARTA>
