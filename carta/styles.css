@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #424242; /*#f4f4f4 */
+    color: #333;
+    background-image: url(restaurante.png);
+    background-repeat: no-repeat;
+    
+    
+    justify-content: center;
+    padding: 20px;
+    margin: 0%;
+}
+.menuTit{
+    font-family: monospace;
+    text-align: center;
+}
+.encabezado{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    margin: 0%;
+    margin-top: -20px;
+
+    font-family: monospace;
+    padding-top: 1px;
+    font-size: xx-large;
+}
+.imagenes{
+    width: 100%;
+    max-width: 1000px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+    margin-left: 19%;
+}
+.valoraciones{
+    height: 380px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    padding: 10px;
+    margin-left: -0.5%;
+}
+/* Contenedor principal del menú */
+#menu {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+
+/* Estilos de cada grupo de platos */
+.GRUPO {
+    margin-bottom: 30px;
+}
+
+.GRUPO .NOM {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #d9534f;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Estilos de cada plato */
+.PLAT {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.PLAT .NOM {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.PLAT .DESCRIPCION {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.PLAT .PRECIO {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.PLAT img {
+    width: 50px; /* Ajusta el tamaño según lo que necesites */
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.imgf {
+    border-radius: 20px;
+    height: 125px;
+    width: 125px;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+.imgf:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.resena{
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 270px;
+    background-color: #b39d24;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: #333 solid 2px;
+    border-radius: 10px;
+    margin-right: 1%;
+    float: left;
+    padding: 10px;
+}
+.resena:hover{
+    size: 110%;
+    max-height: 280px;
+    max-width: 510px;
+    transition: 0.5s;
+    cursor: pointer;
+}
