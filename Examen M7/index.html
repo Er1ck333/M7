@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de Tareas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="task-board">
+    <section class="pendientes">
+      <h2>Pendientes</h2>
+      <ul id="pendientes-list">
+        <li class="task" onclick="moverTarea(this)">Tarea 1</li>
+        <li class="task" onclick="moverTarea(this)">Tarea 2</li>
+        <li class="task" onclick="moverTarea(this)">Tarea 3</li>
+      </ul>
+    </section>
+    <section class="hechas">
+      <h2>Hechas</h2>
+      <ul id="hechas-list"></ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
